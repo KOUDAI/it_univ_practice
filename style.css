@@ -167,3 +167,31 @@ th {
     border-radius: 5px;
     padding: 3px 10px;
 }
+/* モバイル版
+---------------------- */
+
+@media (max-width: 800px) {
+    * {
+        width: 100%;
+        height: auto;
+    }
+    .nav-list {
+        display: flex;
+    }
+    .information {
+        padding: 0;
+        padding-left: 20px;
+
+    }
+    .rule {
+        padding: 0;
+        padding-left: 20px;
+    }
+    .text-center {
+        width: 40%;
+    }
+    .imgsample {
+        width: 20%;
+        height: auto;
+    }
+}
